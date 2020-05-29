@@ -13,7 +13,7 @@ echo -e $green " o    o   w  w   w  w    L L L";
 echo -e $green " o    o    ww     ww          ";
 echo -e $green " oooooo                       ";
 echo -e $green "                              ";
-read - p $blue"Do you want to open this program"
+read - p $blue"Do you want to open this program" {y/B} 
 echo
 echo -e $red"{$blue 1$red }$cyan  Do you want show all tool names and new projects?"
 echo
