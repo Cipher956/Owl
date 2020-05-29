@@ -13,13 +13,14 @@ echo -e $green " o    o   w  w   w  w    L L L";
 echo -e $green " o    o    ww     ww          ";
 echo -e $green " oooooo                       ";
 echo -e $green "                              ";
-read - p $blue"Do you want to open this program" {y/B} 
+ 
 echo
 echo -e $red"{$blue 1$red }$cyan  Do you want show all tool names and new projects?"
 echo
 echo -e $red"{$blue 2$red }$cyan Do you want to install all tools in one click(11 nonroot hacking tools and pranking tools) "
 echo
-echo -e $red"{$blue 3$red }$cyan  Do you want to install call and sms bomber?"
+echo
+echo -e $red"{$blue 3$red }$cyan Do you want to install call and sms bomber?"
 echo
 echo -e $red"{$blue 4$red }$cyan Do you want to install best phishing tool?"
 echo
