@@ -6,14 +6,20 @@ blue='\e[1;34m'
 white='\e[1;35m'
 yellow='\e[1;33m'
 echo
-echo -e $green "                              ";
-echo -e $green " oooooo w      w      w  L    ";
-echo -e $green " o    o  w    w w    w   L    ";
-echo -e $green " o    o   w  w   w  w    L L L";
-echo -e $green " o    o    ww     ww          ";
-echo -e $green " oooooo                       ";
-echo -e $green "                              ";
 echo 
+echo -e $blue "=====================+=============";
+echo -e $blue "===================================";
+echo -e $green "                                  ";
+echo -e $green "   oooooo w      w      w  L      ";
+echo -e $green "   o    o  w    w w    w   L      ";
+echo -e $green "   o    o   w  w   w  w    L L L  ";
+echo -e $green "   o    o    ww     ww            ";
+echo -e $green "   oooooo                         ";
+echo -e $green "                                  ";
+echo -e $blue "===================================";
+echo -e $blue "===================================";
+echo
+echo
 echo
 echo -e $red "Created By CIPHE3R" 
 echo
@@ -226,17 +232,23 @@ if [ $ipp = 0 ]
 then
 clear
 echo
+
                               
                                            
-                                           
-                                              
-echo -e $green "                               ";
-echo -e $green " oooooo w      w      w  L     ";
-echo -e $green " o    o  w    w w    w   L     ";
-echo -e $green " o    o   w  w   w  w    L L L ";
-echo -e $green " o    o    ww     ww           ";
-echo -e $green " oooooo                        ";
-echo -e $green "                               "; 
+echo                                         
+echo -e $blue " =================================";
+echo -e $blue " =================================";
+                             
+echo -e $green "                                 ";
+echo -e $green " oooooo w      w      w  L       ";
+echo -e $green " o    o  w    w w    w   L       ";
+echo -e $green " o    o   w  w   w  w    L L L   ";
+echo -e $green " o    o    ww     ww             ";
+echo -e $green " oooooo                          ";
+echo -e $green "                                 "; 
+echo -e $blue " =================================";
+echo -e $blue " =================================";
+echo
 echo
 echo
 echo
