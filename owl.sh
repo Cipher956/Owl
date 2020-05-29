@@ -221,7 +221,8 @@ echo -e $green " o    o   w  w   w  w    L L L ";
 echo -e $green " o    o    ww     ww           ";
 echo -e $green " oooooo                        ";
 echo -e $green "                               "; 
-echo 
+echo
+echo -e $blue "This tool is created by CIPHE3R" 
 exit
 else
 bash owl.sh
