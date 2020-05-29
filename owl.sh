@@ -13,9 +13,12 @@ echo -e $green " o    o   w  w   w  w    L L L";
 echo -e $green " o    o    ww     ww          ";
 echo -e $green " oooooo                       ";
 echo -e $green "                              ";
- 
+echo 
 echo
-echo -e $red"{$blue 1$red }$cyan  Do you want show all tool names and new projects?"
+echo -e $red "Created By CIPHE3R" 
+echo
+echo
+echo -e $red"{$blue 1$red }$cyan Do you want show all tool names and new projects?"
 echo
 echo -e $red"{$blue 2$red }$cyan Do you want to install all tools in one click(11 nonroot hacking tools and pranking tools) "
 echo
@@ -222,7 +225,11 @@ echo -e $green " o    o    ww     ww           ";
 echo -e $green " oooooo                        ";
 echo -e $green "                               "; 
 echo
-echo -e $blue "This tool is created by CIPHE3R" 
+echo
+echo
+echo -e $blue "This tool is created by CIPHE3R"
+echo
+echo
 exit
 else
 bash owl.sh
