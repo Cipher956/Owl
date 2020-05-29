@@ -65,7 +65,7 @@ fi
 if [ $ipp = 2 ]
 then
 echo
-read -p "Installing the tools" 
+read -p "Do You Want To Install All The Tools [Y/N]" 
 echo -e $yellow"Installing PhoneInfoga"
 git clone https://github.com/sundowndev/PhoneInfoga.git
 echo -e $yellow"Installing saycheese"
