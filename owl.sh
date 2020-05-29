@@ -66,18 +66,31 @@ if [ $ipp = 2 ]
 then
 echo
 read -p "Installing the tools" 
+echo -e $yellow"Installing PhoneInfoga"
 git clone https://github.com/sundowndev/PhoneInfoga.git
+echo -e $yellow"Installing saycheese"
 git clone https://github.com/thelinuxchoice/saycheese.git
+echo -e $yellow"Installing sayhello"
 git clone https://github.com/thelinuxchoice/sayhello.git
-git clone https://github.com/ProfessorCipher/Webjam.git
+echo -e $yellow"Installing Phonesploit"
+git clone https://github.com/metachar/PhoneSploit.git
+echo -e $yellow"Installing Galaxy"
 git clone https://github.com/ProfessorCipher/Galaxy-.git
+echo -e $yellow"Installing metasploit"
 pkg install metasploit
+echo -e $yellow"Installing nmap"
 pkg install nmap
+echo -e $yellow"Installing Sqlmap"
 git clone https://github.com/sqlmapproject/sqlmap.git
+echo -e $yellow"Installing Spade"
 git clone https://github.com/NVlabs/SPADE.git
+echo -e $yellow"Installing termux-ubuntu"
 git clone https://github.com/Neo-Oli/termux-ubuntu.git
+echo -e $yellow"Installing T-bomb"
 git clone https://github.com/TheSpeedX/TBomb.git
+echo -e $yellow"Installing Webjam"
 git clone https://github.com/ProfessorCipher/Webjam.git
+echo -e $yellow"Installing ShellPhish"
 git clone https://github.com/thelinuxchoice/shellphish.git 
 echo -e $blue"All tools are installed, read README.md to know how to use them"
 echo -e $green 
@@ -148,7 +161,7 @@ fi
 if [ $ipp = 9 ] 
 then 
 echo "Installing Phonesploit" 
-git clone https://github.com/ProfessorCipher/Webjam.git 
+git clone https://github.com/metachar/PhoneSploit.git 
 echo
 echo $green
 read -p "Press Any Key To Go Back" enter
