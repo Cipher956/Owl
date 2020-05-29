@@ -6,6 +6,7 @@ blue='\e[1;34m'
 white='\e[1;35m'
 yellow='\e[1;33m'
 echo
+echo -e $green "                              ";
 echo -e $green " oooooo w      w      w  L    ";
 echo -e $green " o    o  w    w w    w   L    ";
 echo -e $green " o    o   w  w   w  w    L L L";
@@ -212,13 +213,13 @@ echo
                                            
                                            
                                               
-echo -e $green "                              ";
-echo -e $green "oooooo w      w      w  L     ";
-echo -e $green " o    o  w    w w    w   L    ";
-echo -e $green " o    o   w  w   w  w    L L L";
-echo -e $green " o    o    ww     ww          ";
-echo -e $green " oooooo                       ";
-echo -e $green "                              "; 
+echo -e $green "                               ";
+echo -e $green " oooooo w      w      w  L     ";
+echo -e $green " o    o  w    w w    w   L     ";
+echo -e $green " o    o   w  w   w  w    L L L ";
+echo -e $green " o    o    ww     ww           ";
+echo -e $green " oooooo                        ";
+echo -e $green "                               "; 
 echo 
 exit
 else
